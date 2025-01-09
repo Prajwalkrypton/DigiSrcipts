@@ -1,0 +1,113 @@
+
+.innerArea {
+    height:30rem;
+    width: 50rem;
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff90;
+    border-radius: 10px;
+    justify-content: space-around;
+    
+}
+.outerCover {
+   margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titleSection {
+    height:15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Guerrilla", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.photoSection {
+    height:30%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+}
+.descriptionSection {
+    padding-left: 20px;
+    padding-right: 20px;
+    height:40%;
+    padding-top:10px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size:14px;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.buttonSection a {
+    color:white;
+    text-decoration: none;
+    &:hover {
+        color: rgba(183, 88, 0, 0.996);
+    }
+}
+.readMorebtn {
+    background-color: rgba(183, 88, 0, 0.996);
+    border:none;
+    height:2.5rem;
+    width:15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    &:hover {
+        background-color: #ffffff62;
+        color:rgba(183, 88, 0, 0.996);
+        border:1px solid rgba(183, 88, 0, 0.996);
+        cursor: pointer;
+        transition:0.4s;
+    }
+}
+.Accessbtn {
+    background-color: rgba(183, 88, 0, 0.996);
+    border:none;
+    height:2.5rem;
+    width:15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    &:hover {
+        background-color: #ffffff62;
+        color:rgba(183, 88, 0, 0.996);
+        border:1px solid rgba(183, 88, 0, 0.996);
+        cursor: pointer;
+        transition:0.4s;
+    }
+
+}
+
+/* editing after phase 2 */
+/* #toPutPhoto {
+    border:5px solid black;
+    height:80%;
+    width:80%;
+    background:url("../photos/pic.jpg"); 
+       
+    background-size:cover;
+} */
+

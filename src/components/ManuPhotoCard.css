@@ -1,0 +1,17 @@
+.btnstyling{
+    height: 2rem;
+    width: 4rem;
+    background-color: rgb(123, 62, 5);
+    padding: 7px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.218) 5px 2px 2px;
+    &:hover {
+        border:1px solid  rgb(123, 62, 5);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(123, 62, 5);
+        transition:0.3s;
+    }
+}

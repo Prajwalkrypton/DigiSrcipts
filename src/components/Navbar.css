@@ -1,0 +1,131 @@
+* {
+    padding:0;
+ 
+}
+.total {
+    padding-top: 2rem;
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 600;
+    font-style: normal;
+  font-style: normal;
+    
+}
+
+
+.logo {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo span img {
+    height: 15rem;
+    position: relative;
+    top:-7rem;
+    left:2rem;
+}
+.content {
+    width: 70%  ;
+    display: flex;
+    justify-content: space-around;
+}
+.content a {
+color:white;
+text-decoration: none;  
+}
+.content  :hover {
+    color: rgba(183, 88, 0, 0.996);
+    transition:0.3s;
+    cursor: pointer;
+}
+.inputArea {
+    height: 2rem;
+    width: 15rem;
+    background-color: rgba(255, 255, 255, 0.181);
+    border:none;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 600;
+    font-style: normal;
+
+    padding-left: 15px;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    &:hover {
+        height: 2rem;
+        width: 17rem;
+        background-color: rgba(255, 255, 255, 0.273);
+        box-shadow: rgba(0, 0, 0, 0.101) 2px 2px 10px 10px;
+        transition: 0.4s;
+    }
+}
+.inputArea::placeholder {
+    color:white;
+}
+* {
+    padding:0;
+ 
+}
+.total {
+    padding-top: 2rem;
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat Alternates", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-style: normal;
+    
+}
+.logo {
+    width:30%;
+}
+.content {
+    width: 70%  ;
+    display: flex;
+    justify-content: space-around;
+}
+.inputArea {
+    height: 2rem;
+    width: 15rem;
+    background-color: rgba(255, 255, 255, 0.181);
+    border:none;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", serif;
+  font-weight: 600;
+  font-style: normal;
+
+    padding-left: 15px;
+    font-size: 12px;
+    color:black;
+    &:hover {
+        height: 2rem;
+        width: 17rem;
+        background-color: rgba(255, 255, 255, 0.273);
+        box-shadow: rgba(0, 0, 0, 0.101) 2px 2px 10px 5px;
+        transition: 0.4s;
+    }
+}
+.search {
+    color:white;
+
+}
+.search i {
+    margin-right:10px;
+    font-size: 15px;
+}
+.search {
+    color:white;
+
+}
+.search i {
+    margin-right:10px;
+    font-size: 15px;
+}

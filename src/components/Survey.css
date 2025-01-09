@@ -1,0 +1,95 @@
+.outDiv {
+    background:linear-gradient(135deg, black,rgba(183, 88, 0, 0.996)); /* Background color for the entire page */
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 400;
+}
+
+.scroll-container {
+    padding: 20px;
+    overflow-y: scroll;
+    height: calc(100vh - 80px); /* Adjust height to accommodate navbar */
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 5rem;
+    border-radius: 20px;
+    color:white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar styles */
+.scroll-container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #515151; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for thumb */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #000000; /* Darker color on hover */
+}
+
+.response-count {
+    margin-bottom: 20px;
+}
+
+.email-section {
+    margin-bottom: 20px;
+}
+
+.email-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 200px; /* Limit height for scrolling */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.email-item {
+    padding: 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.email-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.sections-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: calc(33.33% - 20px); /* Three sections per row with spacing */
+    margin: 10px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.section-headline {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-date,
+.search-results,
+.attached-file {
+    margin-top: 20px;
+}

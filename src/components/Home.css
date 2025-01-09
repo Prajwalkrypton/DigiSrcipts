@@ -1,0 +1,76 @@
+.completeCover {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background: url("../photos/pic.jpg");
+    background-size: cover;
+    backdrop-filter:opacity(0.5);
+   
+}
+.blurOverlay {
+    background: url("../photos/ManuPhotos/ManuPhotos10/2.111.jpg");
+    background-size: cover;
+}
+.mainDiv {
+    height:80%;
+    width: 100%;
+}
+.UpperText {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-top:4rem;
+    font-size: 5rem;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    line-height: 7rem;
+    text-shadow: rgba(0, 0, 0, 0.59) 5px 5px 5px;
+}
+.lowerSearchArea {
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+.lowerinputArea {
+    height: 3rem;
+    width: 50rem;
+    background-color: rgba(255, 255, 255, 0.666);
+    border:none;
+    font-size:16px;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 25px;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    &:hover {
+        height: 3rem;
+        width: 55rem;
+        background-color: rgba(255, 255, 255, 0.273);
+        box-shadow: rgba(0, 0, 0, 0.127) 2px 2px 5px 19px;
+        transition: 0.4s;
+    }
+}
+.lowerinputArea::placeholder {
+    font-size:15px;
+    padding-left: 15px;
+}
+.btn {
+  background-color: rgba(183, 88, 0, 0.996);
+  border: none;
+  border-radius: 50%;
+  height:3rem;
+  width:3rem;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: white;
+    transition: 0.5s;
+  }
+}
+.btn i {
+    font-size: 25px;
+}   
